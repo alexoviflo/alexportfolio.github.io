@@ -51,7 +51,7 @@ const About = () => {
       >
        Jeg er en dyktig programvareutvikler med erfaring i JavaScript og Java og C#,
        og ekspertise i rammeverk som React, Three.js. Jeg har erfaring med Windows server og Microsoft programmer. 
-       Jeg har erfaring med MySQL og Firebase.
+       Jeg har erfaring med Firebase og MySQL.
        Jeg er rask lærevillig og kommuniserer godt med både kollegaer og kunder. jeg lager skalerbare og brukervennlige 
        løsninger som løser virkelige problemer. La oss jobbe sammen for å realisere dine ideer!
       </motion.p>
