@@ -7,9 +7,7 @@ import {EarthCanvas} from './canvas'
 import {SectionWrapper} from '../hoc'
 import { slideIn } from '../utils/motion'
 
-//d-7v#cQ3P7mNta!
-//service_v007onn
-//DLt0esok7K7WCtnft
+ 
 
 const Contact = () => {
   const formRef = useRef()
@@ -31,21 +29,19 @@ const Contact = () => {
     e.preventDefault()
     setLoading(true)
 
-    //d-7v#cQ3P7mNta!
-//service_v007onn
-//DLt0esok7K7WCtnft
+
 
 
     emailjs.send(
-      'service_v007onn',
-      'template_ov5krba', {
+      process.env.VITE_EMAILJS_SERVICE_ID,
+      process.env.VITE_EMAILJS_TEMPLATE_ID,  {
         from_name: form.name,
         to_name: 'Alexander',
         from_email: form.email,
-        to_email: 'alexander.roan12@gmail.com',
+        to_email: process.env.VITE_TO_EMAIL,
         message: form.message,
       },
-      'DLt0esok7K7WCtnft'
+      process.env.VITE_EMAILJS_USER_ID
     )
     .then(() => {
       setLoading(false);
