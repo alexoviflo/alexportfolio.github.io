@@ -238,7 +238,7 @@ import {
       'Et spill som tar for seg en hybrid av sjangrene "4x" og "Roguelike hordeshooter". Kjente spill i disse sjangrene er Civilisations serien (4x, utviklet av Firaxis) og Vampire survivors ("Roguelike hordeshooter", utviklet av Poncle)',
       tags: [
         {
-          name: "C#",
+          name: "C",
           color: "blue-text-gradient",
         },
       ],
