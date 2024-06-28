@@ -270,27 +270,7 @@ import {
       image: sjakk,
       source_code_link: "https://github.com/EvenR98/Gruppe11-sjakktrener?tab=readme-ov-file",
     },
-    {
-      name: "Sudoku",
-      description:
-      'Et enkelt spill i Sudoku',
-      tags: [
-        {
-          name: "CSS",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "HTML",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Javascript",
-          color: "pink-text-gradient",
-        } 
-      ],
-      image: sudoku,
-      source_code_link: "https://github.com/alexoviflo/sudoku/tree/main",
-    },
+    
     {
       name: "Strømpris app",
       description:
