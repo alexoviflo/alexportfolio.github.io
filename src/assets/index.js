@@ -41,8 +41,10 @@ import sjakk from "./sjakk.png";
 import sudoku from "./sudoku.png";
 import kotlin from "./kotlin.png";
 import snake from "./snake.png";
+import alex from "./alex.jpg"
 export {
   logo,
+  alex,
   backend,
   creator,
   mobile,

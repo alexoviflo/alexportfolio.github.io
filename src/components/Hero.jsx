@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import {  alex} from "../assets";
 
 const Hero = () => {
   return (
@@ -24,7 +25,7 @@ const Hero = () => {
         </div>
       </div>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '120vh', transform: 'translateY(50px)' }}>
-  <img src="/public/alex.jpg" alt="Alex" />
+      <img src={alex} alt="Alex" />
 </div>
 
    
