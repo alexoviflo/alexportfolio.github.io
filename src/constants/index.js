@@ -132,12 +132,14 @@ import {
   const experiences = [
     {
       title: "Butikkmedarbeider",
-      company_name: "Janas",
-      icon: janas,
+      company_name: "Coop Extra",
+      icon: coop,
       iconBg: "#383E56",
-      date: "Februar 2017 - September 2019",
+      date: "Jan 2021 - Aug 2023",
       points: [
-       "Røking av fisk, slice fisk, ta i mot bestillinger og hjelpe kunder"
+        "Betjene kasse, varepåfylling, yte service og ekspedere kunder.",
+       " Sikret høy kundetilfredshet gjennom god kommunikasjon og effektiv problemløsning."
+        
       ],
     },
     {
@@ -150,15 +152,16 @@ import {
       "Passe på barna, og hjelpe ansatte med ulike oppgaver  "
       ],
     },
+   
     {
       title: "Butikkmedarbeider",
-      company_name: "Coop Extra",
-      icon: coop,
+      company_name: "Janas",
+      icon: janas,
       iconBg: "#383E56",
-      date: "Jan 2021 - Aug 2023",
+      date: "Februar 2017 - September 2019",
       points: [
-        "Erfaring: God kommunikasjon med kunder, samarbeidsvillig, løsningsorientert.", 
-        "Oppgaver: kontroll på antall varer, hjelpe kunder i kassen"
+       "Janas er en bedrift som spesialiserer seg på røking og tilberedning av fisk og ulike sjødelikatesser. Jobben gikk ut på salg av fisk av mange ulike slag, kundebehandling og",
+        "opprettholde høy kvalitet på varene."
       ],
     },
     
@@ -196,7 +199,7 @@ import {
     {
       name: "3D nettside",
       description:
-        "3D nettside som lar deg endre og forbedre merke og farge på din t-skjorte",
+        "3D-nettside som lar deg endre og forbedre merke og farge på din t-skjorte. Her kan også AI hjelpe deg med å lage en logo, som er koblet til DALL-E. Du sender en prompt til den, og den genererer en logo til deg på min nettside.",
       tags: [
         {
           name: "react",
@@ -221,7 +224,7 @@ import {
     {
       name: "Pacman",
       description:
-        "Spill for de som elsker Pacman.",
+        "Pac-Man-spill i Java, med 3 ulike nivåer. Du har også 3 liv, og hvis du dør, tilbakestilles spillet. Spøkelsene har en algoritme som følger etter spilleren hvis du kommer nær nok.",
       tags: [
         {
           name: "JavaFX",
@@ -235,10 +238,10 @@ import {
     {
       name: "Battle of kauto",
       description:
-      'Et spill som tar for seg en hybrid av sjangrene "4x" og "Roguelike hordeshooter". Kjente spill i disse sjangrene er Civilisations serien (4x, utviklet av Firaxis) og Vampire survivors ("Roguelike hordeshooter", utviklet av Poncle)',
+      'Et spill som tar for seg en hybrid av sjangrene strategi og battle spill. Min hovedoppgave i prosjektet var å jobbe med battle-logikken i spillet, der du skal angripe fiendene og de skal angripe deg. Jeg tok også ansvaret for å lage sprites og det visuelle for spillet.',
       tags: [
         {
-          name: "Csharp",
+          name: "C#",
           color: "blue-text-gradient",
         },
       ],
@@ -248,7 +251,7 @@ import {
     {
       name: "Sjakktrener",
       description:
-      'Sjakk trener er en nettside som har som hovedmål å lære deg sjakkåpniger. Det er også muligheter for å teste seg selv mot en AI (datamakskin) med flere vanskelighetsgrader',
+      'Sjakktrener er en nettside som har som hovedmål å lære deg sjakkåpninger. Det er også muligheter for å teste seg selv mot en AI (datamaskin) med flere vanskelighetsgrader.',
       tags: [
         {
           name: "CSS",
@@ -274,7 +277,7 @@ import {
     {
       name: "Strømpris app",
       description:
-      'App hvor man kan sjekke strømprisen for de ulike regionene i Norge, her kan du sammenligne prisene.',
+      'App hvor man kan sjekke strømprisen for de ulike regionene i Norge. Her kan du sammenligne prisene. Appen henter data fra et API og bruker dataene til å vise dem til brukeren.',
       tags: [
         {
           name: "Kotlin",
@@ -287,7 +290,7 @@ import {
     {
       name: "Slange spill",
       description:
-      'Spill hvor man skal spise eple for å bli større.',
+      'Spill hvor du skal spise epler for å bli større. Slange spill, her er målet å ikke gå utfor skjermen eller spise sin egen hale',
       tags: [
         {
           name: "JavaFX",

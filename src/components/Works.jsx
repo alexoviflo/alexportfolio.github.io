@@ -81,11 +81,11 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-        Følgende prosjekter viser mine ferdigheter og erfaring gjennom  
-        eksempler på arbeidet mitt. Hvert prosjekt er kort beskrevet med lenker 
-        til kode-repositorier. Det reflekterer min evne til å løse 
-        komplekse problemer, arbeide med ulike teknologier, jobbe individuelt og med andre og administrere prosjekter 
-        effektivt.
+       Her kan du se noen av prosjektene jeg har laget og hvilke språk/verktøy jeg har brukt for å lage dem. 
+       Battle of Kauto er bacheloroppgaven som vi jobbet med på Unity og pushet alt samtidig på GitHub når vi var
+        ferdige. Noen av prosjektene har jeg jobbet med selv, mens andre har jeg jobbet med andre, som f.eks. Sjakktrener,
+         hvor jeg jobbet med 4 andre for å lage, noe som ga meg god erfaring med å jobbe med andre. 
+       Du kan også trykke på GitHub-knappen i høyre hjørne hvis du vil se koden.
         </motion.p>
       </div>
       <div className='mt-20 flex flex-wrap gap-7'>

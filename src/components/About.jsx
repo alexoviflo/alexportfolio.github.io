@@ -49,11 +49,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-       Jeg er en dyktig programvareutvikler med erfaring i JavaScript og Java og C#,
-       og ekspertise i rammeverk som React, Three.js. Jeg har erfaring med Windows server og Microsoft programmer. 
-       Jeg har erfaring med Firebase og MySQL.
-       Jeg er rask lærevillig og kommuniserer godt med både kollegaer og kunder. Jeg lager skalerbare og brukervennlige 
-       løsninger som løser virkelige problemer. La oss jobbe sammen for å realisere dine ideer!
+       Jeg er nyutdannet i IT og informasjonssystemer, og ser etter mulighet for å jobbe for deg. Jeg har bred teknisk kunnskap innen database (MySQL, SQLite, Turso, MongoDB, Azure SQL og Firebase), programmering (Java, C#, Kotlin, JavaScript, TypeScript) og webutvikling (HTML, CSS, React, Next.js). Lenger ned på nettsiden ser du ulike prosjekter og hvilke verktøy/språk jeg har brukt. Jeg har også god kunnskap innen Microsoft 365 og Power BI, som jeg har brukt i ulike prosjekter.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

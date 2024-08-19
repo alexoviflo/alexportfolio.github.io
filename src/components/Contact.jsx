@@ -62,26 +62,26 @@ const Contact = () => {
   return (
     <div className='xl:mt-12 xl:flex-row flex flex-col-reverse gap-10 overflow-hiddem '>
         <motion.div variants={slideIn('left', "tween", 0.2, 1)} className='flex-[0.75] bg-black-100 p-8 rounded-2xl'>
-          <p className={styles.sectionSubText}>For å komme i kontakt med meg</p>
+          <p className={styles.sectionSubText}>kontaktskjema</p>
           <h3 className={styles.sectionHeadText}>Kontakt.</h3>
 
           <form ref={formRef} onSubmit={handleSubmit} className='mt-12 flex flex-col gap-8'>
             <label className='flex flex-col'>
-              <span className='text-white  font-medium mb-4'>Ditt navn</span>
-              <input type='text' name='name' value={form.name} onChange={handleChange} placeholder='Hva er ditt navn?'
+              <span className='text-white  font-medium mb-4'>Navn</span>
+              <input type='text' name='name' value={form.name} onChange={handleChange}
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
               />
 
             </label>
             <label className='flex flex-col'>
-              <span className='text-white  font-medium mb-4'>Din email</span>
-              <input type='email' name='email' value={form.email} onChange={handleChange} placeholder='Hva er din email?'
+              <span className='text-white  font-medium mb-4'>Email</span>
+              <input type='email' name='email' value={form.email} onChange={handleChange}
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
               />
 
             </label>
             <label className='flex flex-col'>
-              <span className='text-white  font-medium mb-4'>Din beskjed</span>
+              <span className='text-white  font-medium mb-4'>Beskjed</span>
               <textarea rows="7" name='message' value={form.message} onChange={handleChange} placeholder='Noe du vil si?'
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
               />
@@ -95,7 +95,7 @@ const Contact = () => {
         </motion.div>
         <motion.div variants={slideIn('right', "tween", 0.2, 1)} 
         className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'>
-            <EarthCanvas/>
+       {/*      <EarthCanvas/> */}
         </motion.div>
     </div>
   )
