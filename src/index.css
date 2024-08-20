@@ -12,6 +12,20 @@
   scroll-behavior: smooth;
   color-scheme: dark;
 }
+@media (max-width: 768px) {
+  .heroHeadText {
+    font-size: 1.5rem; /* Juster størrelsen på overskriften for mindre skjermer */
+  }
+  
+  .heroSubText {
+    font-size: 1rem; /* Juster størrelsen på teksten for mindre skjermer */
+  }
+  
+  .heroImage {
+    max-height: 200px; /* Juster høyden på bildet for mindre skjermer */
+  }
+}
+
 
 .hash-span {
   margin-top: -100px;
