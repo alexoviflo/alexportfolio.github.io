@@ -35,7 +35,8 @@ import {
     kotlins,
     csharp,
     microsoft,
-    sql
+    sql,
+    ansatt
   } from "../assets";
   
   export const navLinks = [
@@ -288,21 +289,43 @@ import {
       source_code_link: "https://github.com/Zekima/StromprisApp",
     },
     {
-      name: "Slange spill",
+      name: "Job applikasjon",
       description:
-      'Spill hvor du skal spise epler for å bli større. Slange spill, her er målet å ikke gå utfor skjermen eller spise sin egen hale',
+      'Nettside hvor arbeidsgiver kan legge til stillinger, arbeidssøker kan finne stillinger og søke. man kan lagre stillinger og legge til nye stilinger',
       tags: [
         {
-          name: "JavaFX",
+          name: "Javascript",
           color: "green-text-gradient",
         },
         {
-          name: "SQLite",
+          name: "React",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Supabase",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Clerk",
           color: "pink-text-gradient",
         }
+        ,
+        {
+          name: "Tailwind",
+          color: "green-text-gradient",
+        }
+        ,
+        {
+          name: "shadcn/ui",
+          color: "pink-text-gradient",
+        } ,
+        {
+          name: "Vite",
+          color: "blue-text-gradient",
+        }
       ],
-      image: snake,
-      source_code_link: "https://github.com/alexoviflo/Snake.git",
+      image: ansatt,
+      source_code_link: "https://github.com/alexoviflo/jobapp",
     },
   ];
   

@@ -42,9 +42,11 @@ import sudoku from "./sudoku.png";
 import kotlin from "./kotlin.png";
 import snake from "./snake.png";
 import alex from "./alex.jpg"
+import ansatt from "./ansatt.png"
 export {
   logo,
   alex,
+  ansatt,
   backend,
   creator,
   mobile,
