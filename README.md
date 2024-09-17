@@ -1,8 +1,21 @@
-# React + Vite
+# alexportfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Dette er en nettside som skal vise min portfolio, jeg har med beskrivelse av meg, hvilke verktøy jeg har kunnskap om, ulike prosjekter jeg har laget.
+Min tidligere jobb erfaring, og et kontakt skjema hvis noen vil si noe. 
 
-Currently, two official plugins are available:
+# Installation
+1. Clone the repository:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+   ```bash
+   git clone https://alexoviflo.github.io/alexportfolio.github.io/
+
+   cd repository
+   npm install
+   npm run dev
+# For å komme på nettsiden er den public: https://alexoviflo.github.io/alexportfolio.github.io/
+
+# Vektøy
+Javascript, CSS, Html, Next.js, tailwindcss
+
+
+
