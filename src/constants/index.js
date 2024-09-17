@@ -291,7 +291,7 @@ import {
     {
       name: "Job applikasjon",
       description:
-      'Nettside hvor arbeidsgiver kan legge til stillinger, arbeidssøker kan finne stillinger og søke. man kan lagre stillinger og legge til nye stilinger',
+      'Nettside hvor arbeidsgiver kan legge til stillinger, arbeidssøker kan finne stillinger og søke. Man kan lagre stillinger og legge til nye stilinger',
       tags: [
         {
           name: "Javascript",
